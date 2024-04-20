@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>sOnder</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+   <header class="header">
+        <div class="container">
+            <a href="index.html">
+                <img id="logo" src="logo.jpg">
+            </a>
+        </div>
+    </header>
+
+    <div class="bloon-container" id="bloonContainer">
+        <!-- Bloons will be dynamically added here -->
+    </div>
+<br><br><br><br><br><br>
+<br><br><br><br><br><br>
+
+
+<div class="copyright">
+    <span>&copy; <span id="year"></span> Claudio N'danu</span>
+</div>
+
+    <footer class="footer">
+        <form class="footer-form" autocomplete="off">
+            <input id="messageInput" type="text" placeholder="Speak your mind...">
+            <button type="button" onclick="addBloon()">Send</button>
+        </form>
+    </footer>
+
+    <script src="script.js"></script>
+
+</body>
+</html>
